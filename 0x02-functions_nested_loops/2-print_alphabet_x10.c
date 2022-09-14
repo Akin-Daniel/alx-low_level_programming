@@ -10,16 +10,18 @@ void print_alphabet_x10(void)
 
 	a = 'a';
 
-	int b = 1;
+	char beta;
 
-	while (b <= 10)
+	beta = 'b';
+
+	while (beta <= 'k')
 	{
 		while (a <= 'z')
 		{
 			_putchar(a);
 			a++;
 		}
-		b++;
+		beta++;
 		_putchar('\n');
 	}
 }
