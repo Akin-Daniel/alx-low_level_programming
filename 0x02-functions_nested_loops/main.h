@@ -33,4 +33,8 @@ int print_sign(int n);
  *
  */
 int _abs(int);
+/**
+ * print_last_digit - prints the last digit of any input
+ */
+int print_last_digit(int);
 #endif
