@@ -9,12 +9,12 @@ void print_to_98(int n)
 	n = 98;
 	if (n > 98)
 	{
-		printf(n--);
+		printf("%d", n--);
 		printf(", ");
 	}
 	else if (n < 98)
 	{
-		printf(n++);
+		printf("%d", n++);
 		printf(", ");
 	}
 	else
