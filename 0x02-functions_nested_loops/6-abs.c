@@ -2,6 +2,8 @@
 /**
  * _abs - computes the absolute value of an integer
  *
+ * @n: the input variable
+ *
  * Return: 1 or 0
  *
  */
