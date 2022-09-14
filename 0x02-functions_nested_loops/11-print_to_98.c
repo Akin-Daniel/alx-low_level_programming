@@ -6,19 +6,17 @@
  */
 void print_to_98(int n)
 {
-	n = 98;
-	if (n == 98)
-	{
-		printf(n);
-	}
-	else if (n > 98)
+	n = 98
+	if (n > 98)
 	{
 		printf(n--);
-		printf(',');
-		printf(' ');
+		printf(", ");
+	}
+	else if (n < 98)
+	{
+		printf(n++);
+		printf(", ");
 	}
 	else
-		printf(n++);
-	printf(',');
-	printf(' ');
+		printf("98");
 }
