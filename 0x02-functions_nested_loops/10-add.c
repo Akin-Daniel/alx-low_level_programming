@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * add - starting  point
- *
+ * add - adding it up
  * @x: 1st variable
  * @y: 2nd variable
- *
- * return: returns the result
+ * Return: sum of both integer
  */
 int add(int x, int y)
 {
