@@ -7,7 +7,7 @@
  *
  * return: returns the result
  */
-int add(int x, int y);
+int add(int x, int y)
 {
 	int result = x + y;
 
