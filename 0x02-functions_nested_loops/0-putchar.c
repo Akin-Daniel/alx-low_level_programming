@@ -1,4 +1,4 @@
-#include "header.h"
+#include "main.h"
 /**
  * main - starting point
  *
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	_putchar("_putchar", "\n");
+	_putchar('_putchar', '\n');
 	return (0);
 }
