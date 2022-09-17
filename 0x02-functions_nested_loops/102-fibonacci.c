@@ -1,23 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - fibonacci series to 50
- *
- * Return: (success)
+ * main - fibonacci 50
+ *   *
+ *    *
+ * Return:  (Success)
  */
+
 int main(void)
 {
-	int n = 1;
-	long a = 1;
-	long b = 2;
+	unsigned long int i;
+	unsigned long int bef = 1;
+	unsigned long int aft = 2;
 
-	printf("%li, %li", a, b);
+	printf("%lu", bef);
 
-	while (n  <= 24)
+	for (i = 1; i < 50; i++)
 	{
-		a += b;
-		b += a;
-		printf(", %li, %li", a, b);
-		n++;
+		printf(", %lu", aft);
+		aft += bef;
+		bef = aft - bef;
 	}
+	printf("\n");
 	return (0);
 }
