@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - starting point
+ * main - fibonacci series to 50
  *
- * return: 0
+ * Return: (success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	while (n <= 25)
 	{
-		printf("%li %li", a, b);
+		printf(", %li, %li", a, b);
 		a += b;
 		b += a;
 		n++;
