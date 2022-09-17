@@ -12,7 +12,7 @@ int main(void)
 
 	while (n <= 25)
 	{
-		printf(", %li, %li", a, b);
+		printf("%li, %li ", a, b);
 		a += b;
 		b += a;
 		n++;
