@@ -10,11 +10,13 @@ int main(void)
 	long a = 1;
 	long b = 2;
 
-	while (n <= 25)
+	printf("%d, %d", a, b);
+
+	while (n  <= 24)
 	{
-		printf("%li, %li ", a, b);
 		a += b;
 		b += a;
+		printf(", %li, %li", a, b);
 		n++;
 	}
 	return (0);
