@@ -24,6 +24,6 @@ int main(void)
 		b += a;
 		a = b - a;
 	}
-	printf("%lu \n", n);
+	printf("%lu\n", n);
 	return (0);
 }
