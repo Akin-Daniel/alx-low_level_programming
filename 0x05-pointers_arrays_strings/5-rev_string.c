@@ -20,9 +20,9 @@ int _strlen(char *s)
 }
 
 /**
- *  * rev_string - reverses a string
- *   * @s: string to reverse
- *    */
+ * rev_string - reverses a string
+ * @s: string to reverse
+ */
 
 void rev_string(char *s)
 {
