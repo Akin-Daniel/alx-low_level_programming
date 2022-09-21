@@ -20,9 +20,9 @@ int _strlen(char *s)
 }
 
 /**
- *  * puts2 - prints every second character of a string, followed by a new line
- *   * @str: string to print
- *    */
+ *puts2 - prints every second character of a string, followed by a new line
+ *@str: string to print
+ */
 
 void puts2(char *str)
 {
