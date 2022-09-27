@@ -15,4 +15,11 @@ int _putchar(char c);
  */
 int _isupper(int c);
 
+/**
+ * _isdigit - checks for a digit
+ * @c:  parameter to compare
+ * Return: 1 or 0
+ */
+int _isdigit(int c);
+
 #endif
