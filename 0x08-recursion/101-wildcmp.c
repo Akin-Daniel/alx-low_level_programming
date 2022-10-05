@@ -7,7 +7,7 @@
  * Return: 1 if matched, 0 if not
  */
 
- int substring_match(char *s1, char *s2, char *after_wldcd)
+int substring_match(char *s1, char *s2, char *after_wldcd)
 {
 	if (*s1 == '\0' && *s2 == '\0')
 		return (1);
