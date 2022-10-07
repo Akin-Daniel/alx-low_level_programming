@@ -1,1 +1,1 @@
-This is all about the C programming lauguage
+this is all about static libraries
