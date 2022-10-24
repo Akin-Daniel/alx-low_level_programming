@@ -8,4 +8,7 @@
  * On error, -1 is returned, and error is set appropriately.
  */
 int _putchar(char c);
+
+int main (int argc, char *argv[]);
+
 #endif
